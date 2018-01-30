@@ -6,7 +6,7 @@ def line(deli)
   else
     names = ""
     deli.each_with_index{|customer, number| names << " #{number+1}. #{customer}" }
-    puts "The line is currently: " + names
+    puts "The line is currently:" + names
   end
 end
 
