@@ -6,6 +6,7 @@ def line(deli)
   else
     print "The line is currently: "
     deli.each_with_index{|customer, number| print " #{number+1}. #{customer}" }
+    print "/n"
   end
 end
 
